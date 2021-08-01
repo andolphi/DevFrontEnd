@@ -1,96 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
+.border-top{
+    border-top: 1px solid #d7d7d7;
 }
-body {
-    background-color: #FFF;   
+.border-bottom{
+    border-bottom: 1px solid #d7d7d7;
 }
 
+.border-teste{
+    border: 2px solid #000; /*Modificar esta linha ****************************************************************************************************/
+}
 
-div#header {
-    width: 1500px;
-    height: 850px;
-    margin: 0px auto;
+.header{
+    /* border: 3px solid yellowgreen; */
     background-image: url('../image/bg-banner.jpg');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
     background-position-y: top;
 }
-
-div#topo{
-    width: 1140px;
-    
-    height: 60px;
-    margin: 0px auto;
-    /* border-width: 2px; */
-    
-    
+.banner{
+    min-height: 790px; /*Modificar esta linha ****************************************************************************************************/
 }
 
-
-
-div#header h1{
+/* .menu li{
+    list-style: none;
+    float: left;
     margin-top: 30px;
-    width: 190px;
-    display: block;
-    float:left;
-}
+} */
 
-ul#nav1{
-    list-style: none;
-    padding-left: 0;
-    
-    display: block;
-    float:left;
-    /* margin-left: 70px; */
-    margin-top: 40px;
-    
-}
-
-ul#nav1 li{
-    float:left;
-    margin-right: 30px;
-}
-
-ul#nav1 a{
+.menu a{
+    margin-top: 30px !important;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     color: #FFF;
-}
-ul#nav1 a:hover{
-    color:#000;
-}
-
-div#space-nav {
-    float:left;
-    width: 322px;
-    height:60px;
     
 }
 
-ul#nav2{
-    list-style: none;
-    padding-left: 0;
-    display: block;
-    float:left;
-    /* margin-left: 70px; */
-    margin-top: 40px;
-    
+.menu a:hover{
+    color: #000;
 }
 
-ul#nav2 li{
-    float:left;
-    margin-left: 30px;
-    
-}
-ul#nav2 a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #FFF;
-}
-ul#nav2 a:hover{
-    color: #000;;
+/* .menu li img{
+    margin-top: 0px;
+} */
+
+.menu img{
+    margin-top: 20px;
 }
 
 .link-comecar{
@@ -113,85 +65,24 @@ a.link-comecar:hover{
     background: #7600ff;
 }
 
-div#banner{
-    width:1500px;
-    height:790px;
-    margin: 0px auto;
-    position: relative;
+.client{
     
+    min-height: 100px; /*Modificar esta linha ****************************************************************************************************/
 }
-
-div#client{
-    width:285px;
-    height:100px;
-    margin: 0px auto;
-    position: relative;
-    float:left;
-    background: #FFF;
-    
-}
-div#client img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+.client img{
     margin-top: 30px;
 }
 
-div#separator{
-    width:1500px;
-    height:1px;
-    margin: 0px auto;
-    border-top: 1px solid #d7d7d7;
-}
-
-
-
-div#white{
-    width:1140px;
-    height:100px;
-    margin: 0px auto;
-    /* border-top: 1px solid #000; */
-    
-    
-}
-div#services{
-    width:1140px;
-    height:300px;
-    margin: 0px auto;
-    
-    
-}
-div#service-1{
-    width:360px;
-    height: 300px;
-    float:left;
+.service-blue{
     background-color: #0195f5;
     border-radius: 4px;
     box-shadow: 3px 30px 50px #d7d7d7;
-    position: relative;
 }
-div#service-2{
-    width:420px;
-    height: 300px;
-    float:left;
-    position: relative;
-}
-
-div#service-1 img{
+.service-blue img{
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-div#service-2 img{
-    margin-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.title1service{
+.title-service-blue{
     margin-top: 30px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -200,16 +91,7 @@ div#service-2 img{
     color: #FFF;
 }
 
-.title2service{
-    margin-top: 30px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: #000;
-}
-
-.description1service{
+.desc-service-blue{
     margin-top: 40px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -218,7 +100,24 @@ div#service-2 img{
     color: #fff;
 }
 
-.description2service{
+.service-white{
+    min-height: 300px; /*Modificar esta linha ****************************************************************************************************/
+}
+
+.service-white img{
+    margin-top: 50px;
+}
+
+.title-service-white{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+
+.desc-service-white{
     margin-top: 40px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -227,72 +126,92 @@ div#service-2 img{
     color: #000;
 }
 
-div#client-suport{
-    width:1500px;
-    height:479px;
-    margin: 0px auto;
-    position: relative;
+.white{
+    min-height: 100px; /*Modificar esta linha ****************************************************************************************************/
+}
+
+.atendimento{
     background-image: url('../image/pc-sitedemo.jpg');
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: top;
-    
+    min-height: 479px; /*Modificar esta linha ****************************************************************************************************/
 }
 
-.titlesuport{
-    margin-top: 96px; 
-    margin-left: 180px;
-    /* text-align: center; */
-    font-family: Arial, Helvetica, sans-serif;
+.atendimento #title{
+    margin-top: 95px;
     font-size: 30px;
-    font-weight: bold;
     color: #000;
-    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
-.descriptionsuport{
-    position: absolute;
+.atendimento #desc{
+    color: #b6b6b6;
+    margin-bottom: 50px;
 }
 
-div#newsletter{
-    width:1500px;
-    height:413px;
-    margin: 0px auto;
-    position: relative;
+/* ----------------------------- */
+
+.btn-atendimento{
+    
+    background-repeat:no-repeat;
+    text-decoration: none;
+    border-width: 0px;
+    padding: 20px 50px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+
+.atendimento .ticket{
+    background-color: #04f385;
+}
+
+a.ticket:hover{
+    background-color: #127e4c;
+    color: #FFF;
+}
+
+
+.atendimento .doc{
+    background-color: #0196f5;    
+    color: #FFF;
+}
+
+a.doc:hover{
+    background-color: #7600ff;
+    color: #FFF;
+}
+
+
+/* -------------------------------------- */
+.newsletter{
     background-image: url('../image/bg-newsletter.jpg');
     background-repeat: repeat-x;    
+    min-height: 413px; /*Modificar esta linha ****************************************************************************************************/
 }
-div#topNewsletter{
-    width: auto;
-    height: 100px;
-}
-.titlenewsletter{
-    text-align: center;
+
+.newsletter #title{
+    margin-top: 100px;
     font-size: 30px;
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
 }
-.descnewsletter{
-    margin-top: 40px;
-    text-align: center;
+
+.newsletter #desc{
     font-size: 16px;
     color: #919ca2;
     font-family: Arial, Helvetica, sans-serif;
 }
-div#footer{
-    width:1500px;
-    height:97px;
-    margin: 0px auto;
-    position: relative;
-    
-}
-form#form-newsletter{
-    margin-top: 80px;
-    text-align: center;
-}
-.input-email-newsletter{
+
+.newsletter input[type=text]{
     background-color: transparent;
     border-radius: 5px;
     border-color: #9da6ac;
@@ -301,11 +220,8 @@ form#form-newsletter{
     color: #9da6ac;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    
-
 }
-.button-newsletter{
-    
+.newsletter input[type=submit]{
     background-color: #0196f5;
     border-width: 0px;
     padding: 15px 60px;
@@ -317,9 +233,45 @@ form#form-newsletter{
     color: #FFF;
     border-radius: 5px;
     margin-left: 20px !important;
-    
 }
 
-::-webkit-input-placeholder {
-    color: #9da6ac;
- }
+.newsletter input[type=submit]:hover{
+    background: #7600ff;
+}
+
+.footer{
+    min-height: 97px; /*Modificar esta linha ****************************************************************************************************/
+}
+
+.footer img{
+    margin-top: 30px;
+}
+
+/* .menu-footer li{
+    list-style: none;
+    float: left;
+    margin-top: 30px;
+} */
+
+.menu-footer a{
+    text-decoration: none;
+    color: #919ca2;
+}
+
+.menu-footer a:hover{
+    color: #000;
+}
+
+/* .menu-footer li img{
+    margin-top: 0px;
+} */
+
+/* .menu-footer img{
+    margin-top: 10px;
+} */
+
+.menu-footer p{
+    margin-top: 30px;
+    font-weight: bolder;
+
+}
