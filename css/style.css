@@ -275,3 +275,11 @@ a.doc:hover{
     font-weight: bolder;
 
 }
+
+@media (max-width: 1199px) {
+
+    .atendimento {
+        background-image: none;
+    }
+
+}
