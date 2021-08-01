@@ -6,25 +6,20 @@
 }
 
 .border-teste{
-    border: 2px solid #000; /*Modificar esta linha ****************************************************************************************************/
+    border: 2px solid #000; 
 }
 
 .header{
-    /* border: 3px solid yellowgreen; */
+    
     background-image: url('../image/bg-banner.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: top;
 }
 .banner{
-    min-height: 790px; /*Modificar esta linha ****************************************************************************************************/
+    min-height: 790px; 
 }
 
-/* .menu li{
-    list-style: none;
-    float: left;
-    margin-top: 30px;
-} */
 
 .menu a{
     margin-top: 30px !important;
@@ -37,9 +32,6 @@
     color: #000;
 }
 
-/* .menu li img{
-    margin-top: 0px;
-} */
 
 .menu img{
     margin-top: 20px;
@@ -67,7 +59,7 @@ a.link-comecar:hover{
 
 .client{
     
-    min-height: 100px; /*Modificar esta linha ****************************************************************************************************/
+    min-height: 100px; 
 }
 .client img{
     margin-top: 30px;
@@ -96,12 +88,11 @@ a.link-comecar:hover{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    /* font-weight: bold; */
     color: #fff;
 }
 
 .service-white{
-    min-height: 300px; /*Modificar esta linha ****************************************************************************************************/
+    min-height: 300px; 
 }
 
 .service-white img{
@@ -122,12 +113,11 @@ a.link-comecar:hover{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    /* font-weight: bold; */
     color: #000;
 }
 
 .white{
-    min-height: 100px; /*Modificar esta linha ****************************************************************************************************/
+    min-height: 100px; 
 }
 
 .atendimento{
@@ -135,7 +125,7 @@ a.link-comecar:hover{
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: top;
-    min-height: 479px; /*Modificar esta linha ****************************************************************************************************/
+    min-height: 479px; 
 }
 
 .atendimento #title{
@@ -151,7 +141,7 @@ a.link-comecar:hover{
     margin-bottom: 50px;
 }
 
-/* ----------------------------- */
+
 
 .btn-atendimento{
     
@@ -190,11 +180,11 @@ a.doc:hover{
 }
 
 
-/* -------------------------------------- */
+
 .newsletter{
     background-image: url('../image/bg-newsletter.jpg');
     background-repeat: repeat-x;    
-    min-height: 413px; /*Modificar esta linha ****************************************************************************************************/
+    min-height: 413px; 
 }
 
 .newsletter #title{
@@ -240,18 +230,13 @@ a.doc:hover{
 }
 
 .footer{
-    min-height: 97px; /*Modificar esta linha ****************************************************************************************************/
+    min-height: 97px; 
 }
 
 .footer img{
     margin-top: 30px;
 }
 
-/* .menu-footer li{
-    list-style: none;
-    float: left;
-    margin-top: 30px;
-} */
 
 .menu-footer a{
     text-decoration: none;
@@ -262,20 +247,13 @@ a.doc:hover{
     color: #000;
 }
 
-/* .menu-footer li img{
-    margin-top: 0px;
-} */
-
-/* .menu-footer img{
-    margin-top: 10px;
-} */
 
 .menu-footer p{
     margin-top: 30px;
     font-weight: bolder;
 
 }
-
+/* ------------------------------------------------------------------------------------------------------------------------------------------  */
 @media (max-width: 1199px) {
 
     .atendimento {
